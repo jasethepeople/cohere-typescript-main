@@ -1,0 +1,22 @@
+# Specify files that shouldn't be modified by Fern
+README.md
+banner.png
+.npmignore
+src/test
+vitest.config.mts
+.github/workflows/test.yml
+.github/workflows/ci.yml
+LICENSE
+src/BedrockClient.ts
+src/AwsClient.ts
+src/SagemakerClient.ts
+src/index.ts
+src/aws-utils.ts
+src/aws.ts
+src/core/streaming-fetcher/streaming-utils.ts
+src/ClientV2.ts
+src/CustomClient.ts
+src/core/form-data-utils/FormDataWrapper.ts
+tests/unit/form-data-utils/formDataWrapper.test.ts
+src/OptionalBearerAuthProvider.ts
+tests/unit/optionalAuth.test.ts
